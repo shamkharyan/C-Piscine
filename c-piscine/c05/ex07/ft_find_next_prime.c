@@ -36,5 +36,5 @@ int	ft_find_next_prime(int nb)
 		return (2);
 	while (!ft_is_prime(nb))
 		++nb;
-	return nb;
+	return (nb);
 }
